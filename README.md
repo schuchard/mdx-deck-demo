@@ -1,6 +1,7 @@
 # MDX Deck demo
 
-## [MDX Deck](https://github.com/jxnblk/mdx-deck)
+- [Demo](https://mdx-deck.netlify.com)
+- [MDX Deck source](https://github.com/jxnblk/mdx-deck)
 
 ## Getting started
 

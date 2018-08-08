@@ -1,0 +1,14 @@
+{
+  "name": "mdx-presentation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "mdx-deck": "^1.5.10"
+  },
+  "scripts": {
+    "start": "mdx-deck index",
+    "build": "mdx-deck build index",
+    "pdf": "mdx-deck pdf index"
+  }
+}

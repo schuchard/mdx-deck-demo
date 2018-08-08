@@ -1,0 +1,76 @@
+import { Image, Appear } from 'mdx-deck'
+import { Invert, Split, SplitRight } from 'mdx-deck/layouts'
+import Counter from './components/Counter'
+
+# Title
+## Title 2
+### Title 3
+
+**bold**
+
+*italic*
+
+normal
+
+---
+
+# Code
+
+```
+var a = 1;
+```
+
+inline `code`
+
+---
+
+⚛ ️React component
+
+<Counter />
+
+---
+
+<Image src='https://gradientjoy.com/400x300' />
+
+---
+# Appear 👇
+
+<ul>
+  <Appear>
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+  </Appear>
+</ul>
+
+---
+
+export default Invert
+
+# Inverted
+
+---
+
+export default Split
+
+![](https://gradientjoy.com/400x300)
+
+## Split
+
+First child on the left
+
+---
+
+export default SplitRight
+
+![](https://gradientjoy.com/400x300)
+
+## Split
+
+First child on the right
+
+---
+
+![](https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=2048&h=1024&q=20&fit=crop)
+
+Inline image
